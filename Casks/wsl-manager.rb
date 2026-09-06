@@ -4,7 +4,7 @@ cask "wsl-manager" do
 
   url "https://github.com/bostrot/wsl2-distro-manager/releases/download/v#{version}/wsl2-distro-manager-v#{version}-macos.dmg"
   name "WSL Manager"
-  desc "Manage WSL distros on Windows hosts and native Linux VMs on macOS, with an AI workspace and MCP server"
+  desc "Manage WSL distros and native Linux VMs, with an AI workspace and MCP server"
   homepage "https://wslmanager.com/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "wsl-manager" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "WSL Manager.app"
 
