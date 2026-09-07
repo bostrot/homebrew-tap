@@ -12,10 +12,13 @@ cask "wsl-manager" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :big_sur
 
   app "WSL Manager.app"
+
+  uninstall quit: "com.bostrot.wsl2distromanager"
 
   zap trash: [
     "~/Library/Application Support/WSLManager",
