@@ -1,6 +1,6 @@
 cask "wsl-manager" do
-  version "2.0.1"
-  sha256 "d1f1c474c8b9f92fab2e0799ff9a597bdc7cbfc56b0decc8db484a401b7bc65c"
+  version "2.0.2"
+  sha256 "d25d60ce2429ecf6be63b40cba7a6112e736ec980806cc3c26031a2af0b4f7cb"
 
   url "https://github.com/bostrot/wsl2-distro-manager/releases/download/v#{version}/wsl2-distro-manager-v#{version}-macos.dmg"
   name "WSL Manager"
