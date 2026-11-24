@@ -1,6 +1,6 @@
 cask "sennit" do
-  version "1.0.17"
-  sha256 "1c6df6299e60d062c0d8b80aaf18a34b2ae0db3f1c66fe10da711f7662e3d3f9"
+  version "1.0.24"
+  sha256 "d6c3b0ec5a3241acc9f0262a88ef02a54e79fda6af4729bb804dd00a6925fe68"
 
   url "https://github.com/bostrot/sennit/releases/download/v#{version}/Sennit-#{version}-macos.zip"
   name "Sennit"
